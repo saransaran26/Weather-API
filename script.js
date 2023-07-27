@@ -5,7 +5,7 @@ res.then((data)=>data.json()).then((data1)=>{
         div.innerHTML = `<div class="row row-cols-1 row-cols-md-3">
         <div class="col mb-4">
           <div class="card">
-          <h5 class="card-title">${data1[i].name}</h5>
+          <h1 class="card-title">${data1[i].name}</h1>
             <img src="${data1[i].flag}" class="card-img-top" alt="...">
             <div class="card-body">
             <h5 class="card-title">Capital : ${data1[i].capital}</h5>
